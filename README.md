@@ -4,8 +4,10 @@
 
 - [Задание 0](https://github.com/GPGPUCourse/GPGPUTasks2022/tree/task00): Вводное.
 
-Контакты:
-Владимир Назаренко nazarenko2010@gmail.com
+Контакты:  
+Борис Симиютин simiyutin.boris@yandex.ru  
+Владимир Назаренко nazarenko2010@gmail.com  
+
 
 Лицензирование
 ======
