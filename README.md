@@ -1,13 +1,21 @@
-В этом репозитории предложены задания для курса по вычислениям на видеокартах 2022.
+В этом репозитории предложены задания для В этом репозитории предложены задания для курса по вычислениям на видеокартах 2022.
 
-Задания:
+[Остальные задания](https://github.com/GPGPUCourse/GPGPUTasks2022/).
 
-- [Задание 0](https://github.com/GPGPUCourse/GPGPUTasks2022/tree/task00): Вводное.
+# Задание 1. A+B.
 
-Контакты:
-Владимир Назаренко nazarenko2010@gmail.com
+[![Build Status](https://github.com/GPGPUCourse/GPGPUTasks2022/actions/workflows/cmake.yml/badge.svg?branch=task01&event=push)](https://github.com/GPGPUCourse/GPGPUTasks2022/actions/workflows/cmake.yml)
 
-Лицензирование
-======
+Задание
+=======
 
-Обратите внимание, что хотя часть исходного кода заданий распространяется под MIT лицензией - остальные материалы (структура курса, лекции, изображения, слайды и прочее) являются интеллектуальной собственностью и охраняются законом. По вопросам лицензирования этих материалов вы можете обратиться по [почте](mailto:PolarHare@gmail.com).
+0. Сделать fork проекта
+1. Прочитать все комментарии подряд и выполнить все **TODO** в файле ``src/main.cpp`` и ``src/cl/aplusb.cl``
+2. Отправить **Pull-request** с названием```Task01 <Имя> <Фамилия> <Аффиляция>``` (добавив в описании вывод работы программы в **pre**-тэгах - см. [пример](https://raw.githubusercontent.com/GPGPUCourse/GPGPUTasks2022/task01/.github/pull_request_example.md))
+
+**Дедлайн**: начало лекции 27 сентября.
+
+Коментарии
+==========
+
+Т.к. в ``TODO 6`` исходники кернела считываются по относительному пути ``src/cl/aplusb.cl``, то нужно правильно настроить working directory. Например в случае CLion нужно открыть ``Edit configurations`` -> и указать ``Working directory: .../НАЗВАНИЕПАПКИПРОЕКТА`` (см. [подробнее](https://github.com/GPGPUCourse/GPGPUTasks2022/tree/task01/.figures))
